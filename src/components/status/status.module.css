@@ -1,0 +1,65 @@
+.buatStatus {
+    background-color: #fff;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(15%);
+    margin-top: 2vh;
+
+}
+
+.buatStatus img {
+    margin-right: 5px;
+}
+
+.buatStatus input {
+    margin-left: 5px;
+    width: 90%;
+    height: 40px;
+    border-radius: 25px;
+    border: unset;
+    background-color: #f0f2f5;
+    padding-left: 15px;
+    width: 420px;
+}
+
+.buatStatus input:hover {
+    cursor: pointer;
+}
+
+.status {
+    background-color: #fff;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(15%);
+
+}
+
+.status img {
+    margin-right: 5px;
+}
+
+.status a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.status input {
+    margin-left: 5px;
+    width: 85%;
+    height: 35px;
+    border-radius: 25px;
+    border: unset;
+    background-color: #f0f2f5;
+    padding-left: 15px;
+}
+
+.status p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+}

@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f2f5;
+}
+.buatStatus{
+    background-color:#fff;
+    padding:10px;
+    width:500px;
+    border-radius:10px;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(15%);
+    margin-top:2vh;
+
+}
+.buatStatus img{
+    margin-right:5px;
+}
+.buatStatus input{
+    margin-left:5px;
+    width:90%;
+    height:40px;
+    border-radius:25px;
+    border: unset;
+    background-color: #f0f2f5;
+    padding-left:15px;
+    width:420px;
+}
+.buatStatus input:hover{
+    cursor: pointer;
+}
+.status {
+    background-color: #fff;
+    padding: 10px;
+    width: 500px;
+    border-radius:10px;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateX(15%);
+
+}
+
+.status img {
+    margin-right: 5px;
+}
+.status a{
+    text-decoration:none;
+    color:#000;
+    font-weight: bold;
+}
+.status input {
+    margin-left: 5px;
+    width: 85%;
+    height: 35px;
+    border-radius: 25px;
+    border: unset;
+    background-color: #f0f2f5;
+    padding-left: 15px;
+}
+
+.status p{
+    margin-top:10px;
+    margin-left:5px;
+    font-size:24px;
+}
+.sidebar ul li img{
+    width:25px;
+    margin-right:5px;
+}
+nav.navbar input{
+    border-radius:25px;
+    background-color: #f0f2f5;
+    border:unset;
+}
+
+.main .stories{
+    display:flex;
+    width:650px;
+    transform:translateX(-5%);
+}
+
+.main .stories .storie img {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main .stories .storie{
+    width: 100%;
+    height:200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right:20px;
+    position: relative;
+}
+.main .stories .storie .tambah-cerita{
+    text-align:center;
+    line-height:40px;
+    background-color: #1876f2;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    border:5px solid #fff;
+    margin-top:-10px;
+    position: absolute;
+    bottom:40px;
+    left:35px;
+}
+.main .stories .storie .fotoProfile {
+    text-align: center;
+    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 5px solid #1876f2;
+    position: absolute;
+    top:20px;
+    left: 10px;
+}
+.main .stories .storie .text {
+    text-align: center;
+}
+.main .stories .storie .text p {
+    color:#000;
+    margin-top:20px;
+    font-weight: bold;
+    font-size:13px;
+}
+
+.sidebarKiri{
+    /* overflow-y: scroll; */
+}
+.sidebarKanan{
+    overflow-y: scroll;
+}
